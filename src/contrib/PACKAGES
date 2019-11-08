@@ -1,0 +1,10 @@
+Package: taxadb
+Version: 0.0.1
+Depends: R (>= 2.10)
+Imports: dplyr, DBI, arkdb, tibble, memoise, readr, rappdirs, rlang,
+       magrittr, stringi, progress, utils, dbplyr, RSQLite
+Suggests: spelling, testthat, covr, knitr, rmarkdown, purrr,
+       MonetDBLite
+License: MIT + file LICENSE
+MD5sum: 07548fcf61c528d708579159e2139ee5
+NeedsCompilation: no
