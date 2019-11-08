@@ -1,3 +1,13 @@
+Package: MonetDBLite
+Version: 0.6.1
+Depends: R (>= 3.2.0)
+Imports: DBI (>= 0.6), digest (>= 0.6.4), methods, codetools
+Suggests: assertthat, testthat, survey, nycflights13, RSQLite, dbplyr,
+       dplyr, gdata, callr, devtools, DBItest, bit64
+License: MPL (== 2.0)
+MD5sum: c874db68eb3cd4c75e7d2802be37e9e4
+NeedsCompilation: yes
+
 Package: taxadb
 Version: 0.0.1
 Depends: R (>= 2.10)
