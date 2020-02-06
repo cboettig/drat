@@ -3,18 +3,19 @@ Version: 0.6.1
 Depends: R (>= 3.2.0)
 Imports: DBI (>= 0.6), digest (>= 0.6.4), methods, codetools
 Suggests: assertthat, testthat, survey, nycflights13, RSQLite, dbplyr,
-       dplyr, gdata, callr, devtools, DBItest, bit64
+        dplyr, gdata, callr, devtools, DBItest, bit64
 License: MPL (== 2.0)
 MD5sum: c874db68eb3cd4c75e7d2802be37e9e4
 NeedsCompilation: yes
 
 Package: taxadb
-Version: 0.0.1
+Version: 0.1.0
 Depends: R (>= 2.10)
 Imports: dplyr, DBI, arkdb, tibble, memoise, readr, rappdirs, rlang,
-       magrittr, stringi, progress, utils, dbplyr, RSQLite
+        magrittr, stringi, progress, utils, dbplyr, RSQLite, curl,
+        jsonlite
 Suggests: spelling, testthat, covr, knitr, rmarkdown, purrr,
-       MonetDBLite
+        MonetDBLite, duckdb
 License: MIT + file LICENSE
-MD5sum: 07548fcf61c528d708579159e2139ee5
+MD5sum: 6f36da3d4b15bdb34ec8bcca7c95e32d
 NeedsCompilation: no
