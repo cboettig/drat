@@ -24,6 +24,14 @@ License: MPL (== 2.0)
 MD5sum: c874db68eb3cd4c75e7d2802be37e9e4
 NeedsCompilation: yes
 
+Package: neon4cast
+Version: 0.1.0
+Imports: aws.s3, neonstore, EML, tidync, usethis, ncdf4, scoringRules, stats, distributional, rlang, yaml, ISOweek, tidyverse, dbplyr, DBI, RSQLite, dplyr, tidyr
+Suggests: EFIstandards, testthat (>= 3.0.0), glue, fable, feasts, urca, jsonlite, lubridate, purrr, stringr, tidyselect, readr
+License: MIT + file LICENSE
+MD5sum: 012e8535bc31fa1d7611c155cb899bb3
+NeedsCompilation: no
+
 Package: taxadb
 Version: 0.0.1
 Depends: R (>= 2.10)
