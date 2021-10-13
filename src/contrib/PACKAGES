@@ -7,24 +7,37 @@ License: BSD_2_clause + file LICENSE
 MD5sum: 62b6f46508f5c87d71fa74d53994990e
 NeedsCompilation: no
 
+Package: EFIstandards
+Version: 0.1.1
+Imports: EML, udunits2, usethis
+Suggests: knitr, rmarkdown, markdown, emld, tibble, uuid, lubridate, ggplot2, ncdf4, dplyr, tidyr, reshape2, reticulate
+License: BSD 2-clause License + file LICENSE
+MD5sum: d5501c2bd4cb9cc6c8f975468f09c2ca
+NeedsCompilation: no
+
 Package: MonetDBLite
 Version: 0.6.1
 Depends: R (>= 3.2.0)
 Imports: DBI (>= 0.6), digest (>= 0.6.4), methods, codetools
-Suggests: assertthat, testthat, survey, nycflights13, RSQLite, dbplyr,
-        dplyr, gdata, callr, devtools, DBItest, bit64
+Suggests: assertthat, testthat, survey, nycflights13, RSQLite, dbplyr, dplyr, gdata, callr, devtools, DBItest, bit64
 License: MPL (== 2.0)
 MD5sum: c874db68eb3cd4c75e7d2802be37e9e4
 NeedsCompilation: yes
 
 Package: taxadb
+Version: 0.0.1
+Depends: R (>= 2.10)
+Imports: dplyr, DBI, arkdb, tibble, memoise, readr, rappdirs, rlang, magrittr, stringi, progress, utils, dbplyr, RSQLite
+Suggests: spelling, testthat, covr, knitr, rmarkdown, purrr, MonetDBLite
+License: MIT + file LICENSE
+MD5sum: 07548fcf61c528d708579159e2139ee5
+NeedsCompilation: no
+
+Package: taxadb
 Version: 0.1.0
 Depends: R (>= 2.10)
-Imports: dplyr, DBI, arkdb, tibble, memoise, readr, rappdirs, rlang,
-        magrittr, stringi, progress, utils, dbplyr, RSQLite, curl,
-        jsonlite
-Suggests: spelling, testthat, covr, knitr, rmarkdown, purrr,
-        MonetDBLite, duckdb
+Imports: dplyr, DBI, arkdb, tibble, memoise, readr, rappdirs, rlang, magrittr, stringi, progress, utils, dbplyr, RSQLite, curl, jsonlite
+Suggests: spelling, testthat, covr, knitr, rmarkdown, purrr, MonetDBLite, duckdb
 License: MIT + file LICENSE
 MD5sum: 6f36da3d4b15bdb34ec8bcca7c95e32d
 NeedsCompilation: no
